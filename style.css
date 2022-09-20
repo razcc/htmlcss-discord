@@ -94,3 +94,47 @@ header{
 }
 
                         /* FOOTER */
+footer{
+    background-color: rgb(0, 0, 67);
+}
+.footer-flex{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 70px;
+}
+
+/* Link Social */
+
+
+
+
+/* Liste footer */
+h3{
+    color: rebeccapurple;
+    font-size: 25px;
+}
+
+#footer-list{
+    list-style: none;
+}
+
+#footer-list>li{
+    margin: 10px;
+}
+
+/* Logo footer, tasto registrazione */
+.fondo-footer{
+    width: 80%;
+    margin: auto;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgb(0, 0, 255);
+}
+.registrazione{
+    border-radius: 20px;
+    padding: 10px;
+}
