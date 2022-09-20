@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+                        /* HEADER */
 /* Sfondo Header */
 header{
     background-image: url(img/jumbo.png);
@@ -20,10 +21,51 @@ header{
 .position{
     width: 80%;
     margin: auto;
+    margin-bottom: 8%;
 }
 
+/* Lista di slezione opzioni  */
+.main-menu{
+    list-style: none;
+    display: flex;
+    color: white;
+}
+.main-menu>li{
+    margin: 5px;
+}
+
+/* Bottone Per Accedere */
+.login{
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px;
+}
 /* Il tuo posto per parlare */
 .Place-to-talk{
     text-align: center;
     color: white;
+    width: 50%;
+    margin: auto;
 }
+
+/* Stile dei pulsanti di scaricamento e Browser Discord */
+.download{
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    border: 0 solid;
+    border-radius: 20px;
+    
+}
+.mac::before{
+    content: "\1F817";
+    margin-right: 5px;
+}
+.browser{
+    background-color: black;
+    color: white;
+}
+
+                        /* MAIN */
+
+                       
