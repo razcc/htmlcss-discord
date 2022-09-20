@@ -2,5 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/* Sfondo Header */
+header{
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    background-position: center;   
+}
 
+/* Proprieta Flex */
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Posizione occupata nello schermo */
+.position{
+    width: 80%;
+    margin: auto;
+}
+
+/* Il tuo posto per parlare */
+.Place-to-talk{
+    text-align: center;
+    color: white;
 }
