@@ -68,4 +68,27 @@ header{
 
                         /* MAIN */
 
-                       
+.content-flex{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.reverse-row{
+    flex-direction: row-reverse;
+}
+
+.column{
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.ready-to-adventure{
+    font-weight: bold;
+}
+
+                        /* FOOTER */
