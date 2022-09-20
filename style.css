@@ -108,6 +108,32 @@ footer{
 
 /* Link Social */
 
+footer h2{
+    color: blueviolet;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.bandiera{
+    margin-bottom: 25px;
+}
+.bandiera>img{
+    width: 10%;
+    height: 10%;
+}
+.lingua{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.lingua>span{
+    font-size: 15px;
+}
+
+.social>a{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
 
 
 
